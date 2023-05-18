@@ -58,16 +58,40 @@
 		33B1CEA12A167C7F00C4D628 /* ToDoListApp */ = {
 			isa = PBXGroup;
 			children = (
+				33B1CEBC2A167D6B00C4D628 /* Views */,
+				33B1CEBB2A167D6100C4D628 /* Controllers */,
+				33B1CEB92A167CB500C4D628 /* Supporting Files */,
+			);
+			path = ToDoListApp;
+			sourceTree = "<group>";
+		};
+		33B1CEB92A167CB500C4D628 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				33B1CEA22A167C7F00C4D628 /* AppDelegate.swift */,
 				33B1CEA42A167C7F00C4D628 /* SceneDelegate.swift */,
-				33B1CEA62A167C7F00C4D628 /* ViewController.swift */,
-				33B1CEA82A167C7F00C4D628 /* Main.storyboard */,
 				33B1CEAE2A167C8000C4D628 /* Assets.xcassets */,
 				33B1CEB02A167C8000C4D628 /* LaunchScreen.storyboard */,
 				33B1CEB32A167C8000C4D628 /* Info.plist */,
 				33B1CEAB2A167C7F00C4D628 /* ToDoListApp.xcdatamodeld */,
 			);
-			path = ToDoListApp;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33B1CEBB2A167D6100C4D628 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				33B1CEA62A167C7F00C4D628 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		33B1CEBC2A167D6B00C4D628 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				33B1CEA82A167C7F00C4D628 /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,18 +316,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ToDoListApp/Info.plist;
+				INFOPLIST_FILE = "ToDoListApp/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.todolistapp.dogukansakin.ToDoListApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dogukansakin.ToDoListApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -319,18 +343,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ToDoListApp/Info.plist;
+				INFOPLIST_FILE = "ToDoListApp/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.todolistapp.dogukansakin.ToDoListApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dogukansakin.ToDoListApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
